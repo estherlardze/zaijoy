@@ -13,7 +13,7 @@ type TeamProp = {
 const TeamCard = ({ team }: TeamProp) => {
   return (
     <div
-      className="w-full h-fit shadow-xl p-3"
+      className="w-full h-fit shadow-md p-3"
       style={{ backgroundColor: team.rgbaColor }}
     >
       <div className="overflow-hidden">

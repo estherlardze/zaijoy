@@ -1,4 +1,4 @@
-import {f1, f2, f3, f4, f5, f6, f7, f8, team1, team2, team3, team4} from '../public'
+import {f1, f2, f3, f4, f5, f6, f7, f8, team1, team2, team3, team4, branch1, branch2, branch3} from '../public'
 
 
 export const features = [
@@ -117,4 +117,39 @@ export const faqs = [
     description:
       "There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable",
   },
+];
+
+export const contacts = [
+  {
+    name: "Manchester Branch",
+    title: "Programs Coordinator",
+    num: "(01) 2345-6789",
+    image: branch3,
+    email:"email@zaijoy.com",
+    location: "BT5 Tower, Golden Road, Manchester",
+    color: "#f2cf30",
+    rgbaColor: "rgba(222, 219, 62, 0.2)"
+    
+  },
+  {
+    name: "Birmingham Branch",
+    title: "Programs Coordinator",
+    num: "(01) 2345-6789",
+    email:"email@zaijoy.com",
+    location: "Sapphire Street, Crystal, Birmingham",
+    image: branch2,
+    color: "#e90e70",
+    rgbaColor: "rgba(233, 14, 112, 0.1)"
+  },
+  {
+    name: "Liverpool Branch",
+    title: "Experience Specialist",
+    num: "(01) 2345-6789",
+    email:"email@zaijoy.com",
+    location: "Pearl Lane, Platinum Sqr, Liverpool",
+    image: branch1,
+    color: "#50ad78",
+    rgbaColor: "rgba(80, 173, 120, 0.2)"
+  },
+ 
 ];

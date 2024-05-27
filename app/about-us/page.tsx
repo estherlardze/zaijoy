@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '@/components/Header'
-import {Awards, Welcome, WhyChooseUs, Team, Faqs} from '@/components/index'
+import {Awards, Welcome, WhyChooseUs, Team, Faqs, Branch, Embark, Gallery} from '@/components/index'
 
 const page = () => {
   return (
@@ -10,7 +10,10 @@ const page = () => {
         <WhyChooseUs/>
         <Awards/>
         <Team/>
-        <Faqs/>
+        {/* <Faqs/> */}
+        <Branch/>
+        {/* <Embark/> */}
+        <Gallery/>
     </div>
   )
 }
