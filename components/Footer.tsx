@@ -10,7 +10,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-award bg-cover bg-no-repeat bg-enter text-white py-6">
-      <section className="border-b-2  border-dashed border-pink grid grid-cols-6 gap-8  items-center w-[90%] mx-[5%] justify-between py-6">
+      <section className="border-b-2  border-dashed border-pink grid grid-cols-6 gap-8 my-10 items-center w-[90%] mx-[5%] justify-between py-6">
         <div className="col-span-6 sm:col-span-3 lg:col-span-2">
           <Image src={logo} alt="logo" />
           <p className="my-6">Here Joyful Play Sparks Lifelong Memories.</p>

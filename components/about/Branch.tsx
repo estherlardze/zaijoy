@@ -2,14 +2,19 @@ import React from "react";
 import { contacts } from "@/utils/data";
 import BranchCard from "./BranchCard";
 
-const Branch = () => {
+
+type BranchProp ={
+title:string,
+text:string
+}
+
+const Branch = ({title, text} :BranchProp) => {
   return (
     <section className="w-[90%] mx-[5%] 2xl:w-xl 2xl:mx-auto my-[120px]">
       <div className="text-center">
-        <h1 className="font-bold text-5xl ">Our Branches Near You</h1>
+        <h1 className="font-bold text-5xl ">{title}</h1>
         <p className="my-3 sm:text-lg text-gray-500">
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form.
+          {text}
         </p>
       </div>
 

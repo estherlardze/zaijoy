@@ -5,7 +5,7 @@ import { Gallery , Adventure} from '@/components'
 const page = () => {
   return (
     <div>
-        <Header heading="Adventure"/>
+        <Header heading="Pricing"/>
         <Adventure/>
         <Gallery/>
     </div>
