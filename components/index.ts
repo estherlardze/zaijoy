@@ -1,0 +1,5 @@
+export {default as Welcome } from './about/Welcome'
+export {default as WhyChooseUs} from './about/WhyChooseUs'
+export {default as Awards } from './about/Awards'
+export {default as Team} from './about/Team'
+export {default as Faqs } from './about/Faqs'

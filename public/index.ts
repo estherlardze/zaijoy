@@ -1,0 +1,15 @@
+export {default as about1} from './images/home-40.png';
+export {default as about2} from './images/about-21.png';
+export {default as about3} from './images/about-20.png';
+export {default as f1} from './images/f1.png'
+export {default as f2} from './images/f2.png'
+export {default as f3} from './images/f3.png'
+export {default as f4} from './images/f4.png'
+export {default as f5} from './images/home-25.png'
+export {default as f6} from './images/home-48.png'
+export {default as f7} from './images/home-27.png'
+export {default as f8} from './images/home-26.png'
+export {default as team1} from './images/about-13.png'
+export {default as team2} from './images/about-14.png'
+export {default as team3} from './images/about-15.png'
+export {default as team4} from './images/about-16.png'
