@@ -1,6 +1,6 @@
 import React from "react";
 import { teams } from "@/utils/data";
-import TeamCard from "./TeamCard";
+import TeamCard from "./about/TeamCard";
 import { StaticImageData } from "next/image";
 
 type TeamProp = {
@@ -24,7 +24,7 @@ const Team = () => {
       </div>
 
       <div className="grid grid-cols-4 gap-6 mt-[50px]">
-        {teams.slice(0, 4).map((team: TeamProp, index) => (
+        {teams.map((team: TeamProp, index) => (
           <div className="col-span-4 sm:col-span-2 lg:col-span-1">
             <TeamCard team={team} key={index} />
           </div>

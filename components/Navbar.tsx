@@ -6,6 +6,9 @@ import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/images/logo.png";
 import { GrCart } from "react-icons/gr";
+import Buyticket from "./Buyticket";
+
+
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
@@ -31,27 +34,27 @@ const Navbar = () => {
             About
           </Link>
           <Link
-            href="/apply-for-tutor"
+            href="/services"
             className="text-[17px] font-semibold cursor-pointer hover:text-pink transition-all"
           >
             Services
           </Link>
 
           <Link
-            href="/apply-for-tutor"
+            href="/adventure"
             className="text-[17px] font-semibold cursor-pointer hover:text-pink transition-all"
           >
             Adventures
           </Link>
 
           <Link
-            href="/apply-for-tutor"
+            href="/pricing"
             className="text-[17px] font-semibold cursor-pointer hover:text-pink transition-all"
           >
             Pricing
           </Link>
           <Link
-            href="/contact"
+            href="/teams"
             className="text-[17px] font-semibold cursor-pointer hover:text-pink transition-all"
           >
             Teams
@@ -74,7 +77,9 @@ const Navbar = () => {
               0
             </div>
           </Link>
-          <button className="button hidden sm:block"></button>
+          <div className="hidden sm:block">
+            <Buyticket/>
+          </div>
           <div className="lg:hidden" onClick={handleMenu}>
             {menu ? <IoMdClose size={25} /> : <IoMdMenu size={25} />}
           </div>
