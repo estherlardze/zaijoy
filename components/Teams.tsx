@@ -25,8 +25,8 @@ const Team = () => {
 
       <div className="grid grid-cols-4 gap-6 mt-[50px]">
         {teams.map((team: TeamProp, index) => (
-          <div className="col-span-4 sm:col-span-2 lg:col-span-1">
-            <TeamCard team={team} key={index} />
+          <div className="col-span-4 sm:col-span-2 lg:col-span-1" key={index}>
+            <TeamCard team={team}  />
           </div>
         ))}
       </div>

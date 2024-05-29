@@ -30,8 +30,9 @@ const Team = () => {
           <div
             className="col-span-4 sm:col-span-2 lg:col-span-1"
             data-aos="fade-up"
+            key={index}
           >
-            <TeamCard team={team} key={index} />
+            <TeamCard team={team}  />
           </div>
         ))}
       </div>
