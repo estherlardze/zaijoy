@@ -5,7 +5,7 @@ import { Gallery , Adventure, Embark} from '@/components'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const page = () => {
+const Adventures = () => {
 
   
     useEffect(() => {
@@ -25,4 +25,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Adventures

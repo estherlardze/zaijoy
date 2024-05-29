@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '@/components/Header'
 import { Teams , Gallery, Embark} from '@/components'
 
-const page = () => {
+const Team = () => {
   return (
     <div className='overflow-x-hidden'>
         <Header heading="Teams"/>
@@ -13,4 +13,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Team

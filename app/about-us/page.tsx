@@ -16,7 +16,7 @@ import {
   Gallery,
 } from "@/components/index";
 
-const page = () => {
+const Aboutus = () => {
   useEffect(() => {
     AOS.init({
       duration: 1500,
@@ -42,4 +42,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Aboutus;

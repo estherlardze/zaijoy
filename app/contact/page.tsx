@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/Header";
 import { Gallery, Form, Branch, Embark } from "@/components";
 
-const page = () => {
+const Contact = () => {
   return (
     <div className="overflow-x-hidden">
       <Header heading="Contact" />
@@ -17,4 +17,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Contact;

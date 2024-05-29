@@ -2,7 +2,7 @@ import React from "react";
 import Header from "@/components/Header";
 import { Gallery, Services, Embark } from "@/components";
 
-const page = () => {
+const Service = () => {
   return (
     <div className="overflow-x-hidden">
       <Header heading="Services" />
@@ -13,4 +13,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Service;

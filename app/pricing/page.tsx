@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '@/components/Header'
 import { Gallery , Pricing, Embark} from '@/components'
 
-const page = () => {
+const Pricings = () => {
   return (
     <div className='overflow-x-hidden'>
         <Header heading="Pricing"/>
@@ -13,4 +13,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Pricings
