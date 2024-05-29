@@ -8,10 +8,10 @@ import { home10, home11 } from "@/public";
 const Adventure = () => {
   return (
     <section className="text-black mx-[5%] w-[90%] my-[90px] 2xl:w-[1300px] 2xl:mx-auto">
-      <h1 className="text-center font-bold text-5xl mb-10">
+      <h1 className="text-center font-bold text-5xl mb-10" data-aos="fade-up">
         Easy Rates, Happy Play!
       </h1>
-      <p className="text-center my-6 text-black/80">
+      <p className="text-center my-6 text-black/80" data-aos="fade-up">
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form.
       </p>
@@ -33,6 +33,7 @@ const Adventure = () => {
               key={index}
               className="col-span-6 sm:col-span-3 lg:col-span-2 py-6 px-4 relative"
               style={{ backgroundColor: price.rgbaColor }}
+              data-aos="fade-up"
             >
               <Image
                 src={home10}

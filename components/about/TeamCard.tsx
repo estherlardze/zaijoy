@@ -10,7 +10,7 @@ type TeamProp = {
   rgbaColor: string;
 };
 
-const TeamCard = ({ team }: TeamProp) => {
+const TeamCard = ({ team }: any) => {
   return (
     <div
       className="w-full h-fit shadow-md p-3"

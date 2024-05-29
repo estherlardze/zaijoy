@@ -4,7 +4,7 @@ import { Gallery, Form, Branch, Embark } from "@/components";
 
 const page = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header heading="Contact" />
       <Branch
         title="Playful Magic to Every Corner"

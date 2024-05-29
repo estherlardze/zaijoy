@@ -4,20 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-type ServiceProp = {
-  title: string;
-  text: string;
-  image: StaticImageData;
-  color: string;
-  rgbaColor: string;
-  route: string
-};
 
-const ServiceCard = ({ service }: ServiceProp) => {
+const ServiceCard = ({ service }: any) => {
   return (
     <div
       className="w-full h-fit shadow-md p-3"
       style={{ backgroundColor: service.rgbaColor }}
+      data-aos="fade-up"
     >
       <div className="overflow-hidden">
         <Image

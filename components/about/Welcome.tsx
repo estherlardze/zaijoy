@@ -10,18 +10,23 @@ const Welcome = () => {
 
   const closeVideo = () => {
     setOpenVideo(!openVideo);
-  }
+  };
 
   return (
     <section className="flex flex-col justify-center items-center w-[90%] mx-[5%] 2xl:w-[1300px] 2xl:mx-auto my-[80px] text-grey">
-      <h1 className="font-bold text-5xl ">Welcome to Zaijoy Story!</h1>
-      <p className="my-3 sm:text-lg text-gray-500 text-center">
+      <h1 className="font-bold text-5xl " data-aos="fade-up">
+        Welcome to Zaijoy Story!
+      </h1>
+      <p
+        className="my-3 sm:text-lg text-gray-500 text-center"
+        data-aos="fade-up"
+      >
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable.
       </p>
 
-      <div className="relative my-6">
+      <div className="relative my-6" data-aos="fade-up">
         <Image src={about1} alt="welcome-image-1" />
         <div className="absolute top-12 left-12 right-12 bottom-12">
           <Image src={about2} alt="welcome-image-2" />
@@ -38,7 +43,7 @@ const Welcome = () => {
         </div>
       </div>
 
-      {openVideo && <Popup closeVideo={closeVideo}/>}
+      {openVideo && <Popup closeVideo={closeVideo} />}
     </section>
   );
 };

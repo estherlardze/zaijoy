@@ -1,5 +1,10 @@
+"use client";
+import { useEffect } from "react";
+
 import React from "react";
 import Header from "@/components/Header";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import {
   Awards,
   Welcome,
@@ -12,21 +17,27 @@ import {
 } from "@/components/index";
 
 const page = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      once: false,
+    });
+  }, []);
+
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header heading="About-us" />
       <Welcome />
       <WhyChooseUs />
       <Awards />
       <Team />
-      <Faqs/>
+      <Faqs />
       <Branch
         title="Welcome to Zaijoy Story!"
         text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
       />
-      <Embark/>
+      <Embark />
       <Gallery />
-     
     </div>
   );
 };

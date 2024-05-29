@@ -4,7 +4,7 @@ import { Gallery , Pricing, Embark} from '@/components'
 
 const page = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
         <Header heading="Pricing"/>
         <Pricing/>
         <Embark/>

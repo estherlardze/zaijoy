@@ -8,7 +8,6 @@ import logo from "../public/images/logo.png";
 import { GrCart } from "react-icons/gr";
 import Buyticket from "./Buyticket";
 
-
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
@@ -17,7 +16,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black/60 text-white fixed lg:absolute top-0 left-0 right-0 lg:top-7 w-full transition-all duration-300 z-20">
+    <nav className="bg-black/80 text-white fixed lg:absolute top-0 left-0 right-0 lg:top-7 w-full transition-all duration-300 z-20">
       <section className="flex justify-between py-5 px-8 items-center">
         <Image src={logo} alt="logo" width={100} />
         <div className="hidden lg:flex gap-8">
@@ -78,7 +77,7 @@ const Navbar = () => {
             </div>
           </Link>
           <div className="hidden sm:block">
-            <Buyticket color={"#e90e70"} textColor={"#fff"}/>
+            <Buyticket color={"#e90e70"} textColor={"#fff"} />
           </div>
           <div className="lg:hidden" onClick={handleMenu}>
             {menu ? <IoMdClose size={25} /> : <IoMdMenu size={25} />}
@@ -95,16 +94,16 @@ const Navbar = () => {
             <Link href="/about-us" className="font-semibold cursor-pointer">
               About
             </Link>
-            <Link href="/" className="font-semibold cursor-pointer">
+            <Link href="/services" className="font-semibold cursor-pointer">
               Services
             </Link>
             <Link href="/" className="font-semibold cursor-pointer">
               Adventures
             </Link>
-            <Link href="/" className="font-semibold cursor-pointer">
+            <Link href="/pricing" className="font-semibold cursor-pointer">
               Pricing
             </Link>
-            <Link href="/" className="font-semibold cursor-pointer">
+            <Link href="/team" className="font-semibold cursor-pointer">
               Team
             </Link>
             <Link href="/contact" className="font-semibold cursor-pointer">

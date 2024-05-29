@@ -2,7 +2,10 @@ import React from "react";
 
 const ContactButton = () => {
   return (
-    <button className="group relative inline-flex  items-center justify-center overflow-hidden rounded-md  font-medium">
+    <button
+      className="group relative inline-flex  items-center justify-center overflow-hidden rounded-md  font-medium"
+      data-aos="fade-up"
+    >
       <div className="inline-flex text-lg py-2 font-semibold translate-y-0 items-center justify-center border-2 border-pink px-8 text-black transition duration-500 group-hover:-translate-y-[150%]">
         Contact Us
       </div>

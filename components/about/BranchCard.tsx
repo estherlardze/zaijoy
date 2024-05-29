@@ -1,27 +1,27 @@
-import React from 'react'
-import { StaticImageData } from 'next/image'
-import Image  from 'next/image'
+import React from "react";
+import { StaticImageData } from "next/image";
+import Image from "next/image";
 import { LuPhoneCall } from "react-icons/lu";
 import { MdAlternateEmail } from "react-icons/md";
 import { GrLocation } from "react-icons/gr";
 
-
 type BranchProps = {
-    name: string,
-    title: string,
-    num: string,
-    email:string,
-    location: string,
-    image: StaticImageData,
-    color: string,
-    rgbaColor: string,
-  }
+  name: string;
+  title: string;
+  num: string;
+  email: string;
+  location: string;
+  image: StaticImageData;
+  color: string;
+  rgbaColor: string;
+};
 
-const BranchCard = ({contact}: BranchProps) => {
+const BranchCard = ({ contact }: any) => {
   return (
     <div
       className="w-full h-fit shadow-md p-3"
       style={{ backgroundColor: contact.rgbaColor }}
+      data-aos="fade-up"
     >
       <div className="overflow-hidden">
         <Image
@@ -36,21 +36,21 @@ const BranchCard = ({contact}: BranchProps) => {
         style={{ border: `2px dashed ${contact.color}` }}
       >
         <h1 className="font-bold text-xl mb-4">{contact.name}</h1>
-       <div className='flex gap-4 items-center'>
-         <LuPhoneCall size={24} className='text-green-600'/>
-         <p>{contact.num}</p>
-       </div>
-       <div className='flex gap-4 items-center my-4'>
-         <MdAlternateEmail size={24} className='text-orange-600'/>
-         <p>{contact.email}</p>
-       </div>
-       <div className='flex gap-4 items-center'>
-         <GrLocation size={24} className='text-green-600'/>
-         <p>{contact.location}</p>
-       </div>
+        <div className="flex gap-4 items-center">
+          <LuPhoneCall size={24} className="text-green-600" />
+          <p>{contact.num}</p>
+        </div>
+        <div className="flex gap-4 items-center my-4">
+          <MdAlternateEmail size={24} className="text-orange-600" />
+          <p>{contact.email}</p>
+        </div>
+        <div className="flex gap-4 items-center">
+          <GrLocation size={24} className="text-green-600" />
+          <p>{contact.location}</p>
+        </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default BranchCard
+export default BranchCard;

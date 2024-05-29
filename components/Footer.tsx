@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="bg-award bg-cover bg-no-repeat bg-enter text-white py-6 ">
       <section className="border-b-2  border-dashed border-pink grid grid-cols-6 gap-8 my-10 items-center w-[90%] mx-[5%] justify-between py-6 2xl:w-[1300px] 2xl:mx-auto">
-        <div className="col-span-6 sm:col-span-3 lg:col-span-2">
+        <div className="col-span-6 sm:col-span-3 lg:col-span-2" data-aos="fade-right">
           <Image src={logo} alt="logo" />
           <p className="my-6">Here Joyful Play Sparks Lifelong Memories.</p>
           <div className="flex gap-4">
@@ -22,11 +22,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="col-span-6 sm:col-span-3 lg:col-span-2 ">
+        <div className="col-span-6 sm:col-span-3 lg:col-span-2 " data-aos="fade-up">
           <Image src={about} alt="about" />
         </div>
 
-        <div className="flex flex-col col-span-6 sm:col-span-3 lg:col-span-2">
+        <div className="flex flex-col col-span-6 sm:col-span-3 lg:col-span-2" data-aos="fade-left">
           <h1 className="font-bold text-2xl">Subscribe to Our Newsletter</h1>
           <p className="my-6">
             Be part of the 50K+ community thriving with Zaijoy!
@@ -45,7 +45,7 @@ const Footer = () => {
       </section>
 
       <div className="w-[90%] mx-[5%] grid grid-cols-4 gap-8 pt-6 2xl:w-[1300px] 2xl:mx-auto">
-        <div className="sm:border-r-2  border-dashed border-pink col-span-4 sm:col-span-2 lg:col-span-1">
+        <div className="sm:border-r-2  border-dashed border-pink col-span-4 sm:col-span-2 lg:col-span-1" data-aos="fade-right">
           <h2 className="text-xl font-semibold mb-4">Menu</h2>
           <ul>
             <li className="mb-2">
@@ -65,7 +65,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="lg:border-r-2  border-dashed border-pink col-span-4 sm:col-span-2 lg:col-span-1">
+        <div className="lg:border-r-2  border-dashed border-pink col-span-4 sm:col-span-2 lg:col-span-1" data-aos="fade-left">
           <h2 className="text-xl font-semibold mb-4">Menu</h2>
           <ul>
             <li className="mb-2">
@@ -85,7 +85,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="sm:border-r-2 border-dashed border-pink col-span-4 sm:col-span-2 lg:col-span-1">
+        <div className="sm:border-r-2 border-dashed border-pink col-span-4 sm:col-span-2 lg:col-span-1" data-aos="fade-right">
           <h2 className="text-xl font-semibold mb-4">Follow Us</h2>
           <ul>
             <li className="mb-2">
@@ -110,7 +110,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-span-4 sm:col-span-2 lg:col-span-1">
+        <div className="col-span-4 sm:col-span-2 lg:col-span-1" data-aos="fade-left">
           <h1 className="text-2xl font-bold mb-4">Contact Info</h1>
           <div className="flex gap-4 items-center">
             <LuPhoneCall size={24} className="text-green-600" />

@@ -38,10 +38,10 @@ const images = [
 const Adventure = () => {
   return (
     <div className="text-black mx-[5%] w-[90%] my-[90px] 2xl:w-[1300px] 2xl:mx-auto">
-      <h1 className="text-center font-bold text-5xl mb-10">
+      <h1 className="text-center font-bold text-5xl mb-10" data-aos="fade-up">
         Explore Our Gallery!
       </h1>
-      <p className="text-center my-6 text-black/80">
+      <p className="text-center my-6 text-black/80" data-aos="fade-up">
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable.
@@ -52,6 +52,7 @@ const Adventure = () => {
           <div
             key={index}
             className="col-span-6 sm:col-span-3 lg:col-span-2 relative"
+            data-aos="fade-up"
           >
             <Image
               src={item.image}

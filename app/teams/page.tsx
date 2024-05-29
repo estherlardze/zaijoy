@@ -4,7 +4,7 @@ import { Teams , Gallery, Embark} from '@/components'
 
 const page = () => {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
         <Header heading="Teams"/>
         <Teams/>
         <Embark/>

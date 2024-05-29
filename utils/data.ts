@@ -17,7 +17,14 @@ import {
   team6,
   team7,
   team8,
-  team9
+  team9,
+  f9,
+  f10,
+  f11,
+  f12,
+  mom1,
+  mom2,
+  mom3
 } from "../public";
 
 export const features = [
@@ -200,25 +207,25 @@ export const services = [
   {
     title: "Creative Play Sessions",
     text: "Engaging creative play activities for designed to stimulate imagination and cognitive development.",
-    image: team4,
+    image: mom1,
     color: "#50ad78",
-    rgbaColor: "rgba(80, 173, 120, 0.2)",
+    rgbaColor: "rgba(80, 173, 120, 0.3)",
     route: "/",
   },
   {
     title: "Parent-Child Workshops",
     text: "Informative workshops designed to support parents in understanding child development and fostering healthy.    ",
-    image: team3,
+    image: mom2,
     color: "#f2cf30",
-    rgbaColor: "rgba(222, 219, 62, 0.2)",
+    rgbaColor: "rgba(222, 219, 62, 0.3)",
     route: "/",
   },
   {
     title: "    Nurturing Caregiving",
     text: "We compassionate and professional caregivers ensuring a safe and nurturing environment for your child.",
-    image: team2,
+    image: mom3,
     color: "#50ad78",
-    rgbaColor: "rgba(80, 173, 120, 0.2)",
+    rgbaColor: "rgba(80, 173, 120, 0.3)",
     route: "/",
   },
   {
@@ -281,4 +288,59 @@ export const pricings = [
     color: "#32a852",
     rgbaColor: "rgba(50, 168, 82, 0.2)",
   }
+]
+
+export const homefeatures = [
+  {
+    title: "Vibrant Play Area",
+    content: "Vibrant indoor play area is a canvas for imagination, filled with age-appropriate toys and activities.    ",
+    image: f9,
+    color: "#32a852",
+  },
+  {
+    title: "Dedicated Caregivers",
+    content: "With a dedicated team of experienced caregivers, your little ones are in capable hands, receiving.    ",
+    image: f10,
+    color: "#de6535",
+  },
+  {
+    title: "Emphasis on Hygiene",
+    content: "Hygiene and safety are non-negotiable priorities, We ensure secure space where children can flourish.    ",
+    image: f11,
+    color: "#2abed1",
+  },
+  {  title:"Stimulating Environment",
+    content: "Safety is paramount. Our meticulously crafted space provides a safe and stimulating environment.    ",
+    image: f12,
+    color: "#f0d316",
+  },
+  
+
+]
+
+export const enhances = [
+  {
+    title: "Toddler Play Zones",
+    content:
+      "Play zones tailored specifically for the needs and abilities.",
+    image: f3,
+  },
+  {
+    title: "Educational Tools",
+    content:
+      "Toys and tools that are promote learning and development.",
+    image: f2,
+  },
+  {
+    title: "Storytelling Zones",
+    content:
+      "Storytelling sessions to promote language development.",
+    image: f1,
+  },
+  {
+    title: "Baby Crawling Area",
+    content:
+      "Designated area for infants to develop their motor skills.",
+    image: f4,
+  },
 ]
