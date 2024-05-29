@@ -12,7 +12,7 @@ const WhyChooseUs = () => {
         <p className="my-3 sm:text-lg text-gray-500" data-aos="fade-up">
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don't look even slightly believable.
+          humour, or randomised words which do not look even slightly believable.
         </p>
       </div>
 

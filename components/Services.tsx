@@ -27,8 +27,8 @@ const Services = () => {
 
       <div className="grid grid-cols-6 gap-6 mt-[50px]">
         {services.map((service, index) => (
-          <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-            <ServiceCard service={service} key={index} />
+          <div className="col-span-6 sm:col-span-3 lg:col-span-2"  key={index}>
+            <ServiceCard service={service} />
           </div>
         ))}
       </div>

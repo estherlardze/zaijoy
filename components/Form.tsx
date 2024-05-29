@@ -29,7 +29,7 @@ const Form = () => {
 
       <form className="bg-white p-8 rounded-lg shadow-md w-full border-2 border-dashed border-pink">
         <h2 className="text-2xl font-bold mb-2" data-aos="fade-up">
-          We're Just a Message Away
+          We are Just a Message Away
         </h2>
         <p data-aos="fade-up">Reach out to us for any queries or concerns.</p>
         <div

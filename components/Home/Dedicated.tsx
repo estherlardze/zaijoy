@@ -37,8 +37,8 @@ const Dedicated = () => {
 
       <div className="grid grid-cols-6 gap-6 mt-[100px] w-[90%]  mx-[5%] 2xl:w-[1300px] 2xl:mx-auto">
         {services.slice(0, 3).map((service, index) => (
-          <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-            <ServiceCard service={service} key={index} />
+          <div className="col-span-6 sm:col-span-3 lg:col-span-2" key={index}>
+            <ServiceCard service={service}  />
           </div>
         ))}
       </div>

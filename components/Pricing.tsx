@@ -51,8 +51,8 @@ const Adventure = () => {
                 {price.cost} <span className="text-lg">/ Child</span>
               </h1>
               <div className="flex flex-col gap-3 my-6">
-                {price.benefits.map((bebenit) => (
-                  <article className="flex items-center gap-2">
+                {price.benefits.map((bebenit, index) => (
+                  <article className="flex items-center gap-2" key={index}>
                     <CiCircleCheck />
                     <p>{bebenit}</p>
                   </article>

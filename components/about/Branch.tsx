@@ -20,9 +20,9 @@ const Branch = ({ title, text }: BranchProp) => {
       </div>
 
       <div className="grid grid-cols-6 gap-6 mt-[50px]">
-        {contacts.map((contact) => (
+        {contacts.map((contact, index) => (
           <div className="col-span-6 sm:col-span-3 lg:col-span-2">
-            <BranchCard contact={contact} />
+            <BranchCard contact={contact} key={index}/>
           </div>
         ))}
       </div>

@@ -17,9 +17,8 @@ const Faqs = () => {
 
         <div className="grid grid-cols-2 gap-6 mt-[50px]">
           {faqs.map((item, index) => (
-            <div className="col-span-2 md:col-span-1">
+            <div className="col-span-2 md:col-span-1" key={index}>
               <Accordian
-                key={index}
                 title={item.value}
                 content={item.description}
               />
