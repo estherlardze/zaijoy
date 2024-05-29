@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "@/components/Header";
-import { Gallery, Form, Branch } from "@/components";
+import { Gallery, Form, Branch, Embark } from "@/components";
 
 const page = () => {
   return (
@@ -11,6 +11,7 @@ const page = () => {
         text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
       />
       <Form/>
+      <Embark />
       <Gallery />
     </div>
   );

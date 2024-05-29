@@ -13,9 +13,9 @@ const Welcome = () => {
   }
 
   return (
-    <section className="flex flex-col justify-center items-center w-[90%] mx-[5%] 2xl:w-xl 2xl:mx-auto my-[80px] text-grey">
+    <section className="flex flex-col justify-center items-center w-[90%] mx-[5%] 2xl:w-[1300px] 2xl:mx-auto my-[80px] text-grey">
       <h1 className="font-bold text-5xl ">Welcome to Zaijoy Story!</h1>
-      <p className="my-3 sm:text-lg text-gray-500">
+      <p className="my-3 sm:text-lg text-gray-500 text-center">
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable.

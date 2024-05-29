@@ -78,7 +78,7 @@ const Navbar = () => {
             </div>
           </Link>
           <div className="hidden sm:block">
-            <Buyticket/>
+            <Buyticket color={"#e90e70"} textColor={"#fff"}/>
           </div>
           <div className="lg:hidden" onClick={handleMenu}>
             {menu ? <IoMdClose size={25} /> : <IoMdMenu size={25} />}

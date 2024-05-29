@@ -37,7 +37,7 @@ const images = [
 
 const Adventure = () => {
   return (
-    <div className="text-black mx-[5%] w-[90%] my-[90px]">
+    <div className="text-black mx-[5%] w-[90%] my-[90px] 2xl:w-[1300px] 2xl:mx-auto">
       <h1 className="text-center font-bold text-5xl mb-10">
         Explore Our Gallery!
       </h1>

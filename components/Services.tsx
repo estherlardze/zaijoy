@@ -16,7 +16,7 @@ type ServiceProp = {
 
 const Services = () => {
   return (
-    <div className="my-[100px] mx-[5%] w-[90%] text-gray-800">
+    <div className="my-[100px] mx-[5%] w-[90%] text-gray-800 2xl:w-[1300px] 2xl:mx-auto">
       <h1 className="text-center font-bold text-5xl mb-10">
         Explore Our Specialized Services
       </h1>

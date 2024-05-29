@@ -4,7 +4,7 @@ import { features } from "@/utils/data";
 
 const WhyChooseUs = () => {
   return (
-    <section className="w-[90%] mx-[5%] 2xl:w-xl 2xl:mx-auto my-[80px]">
+    <section className="w-[90%] mx-[5%] my-[80px] 2xl:w-[1300px] 2xl:mx-auto ">
       <div className="text-center">
         <h1 className="font-bold text-5xl ">Why You Should Visit Us</h1>
         <p className="my-3 sm:text-lg text-gray-500">

@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "@/components/Header";
-import { Gallery, Services } from "@/components";
+import { Gallery, Services, Embark } from "@/components";
 
 const page = () => {
   return (
@@ -8,6 +8,7 @@ const page = () => {
       <Header heading="Services" />
       <Services />
       <Gallery />
+      <Embark />
     </div>
   );
 };

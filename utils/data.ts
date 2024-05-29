@@ -246,3 +246,39 @@ export const services = [
     route: "/",
   },
 ];
+
+export const pricings = [
+  {
+    range: "Infants (0-1 Year)",
+    cost: "$8.0",
+    benefits: [
+      "Access to baby play area",
+      "Sensory activities",
+      "Exploration with toys"
+    ],
+    color: "#2abed1",
+    rgbaColor: "rgba(42, 190, 209, 0.2)",
+  },
+  {
+    range: "Toddlers (1-3 Years)",
+    cost: "$12.0",
+    benefits: [
+      "Access to main play area",
+      "Learning activities",
+      "Basic storytelling"
+    ],
+    color: "#de6535",
+    rgbaColor: "rgba(222, 101, 53, 0.2",
+  },
+  {
+    range: "Pre-Kids (3-5 Years)",
+    cost: "$15.0",
+    benefits: [
+      "Access to all play area",
+      "Interactive storytelling",
+      "Creative play corners"
+    ],
+    color: "#32a852",
+    rgbaColor: "rgba(50, 168, 82, 0.2)",
+  }
+]

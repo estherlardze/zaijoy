@@ -16,7 +16,7 @@ const Form = () => {
   };
 
   return (
-    <div className="mx-[5%] w-[90%]">
+    <div className="mx-[5%] w-[90%] 2xl:w-[1300px] 2xl:mx-auto">
       <div className="text-center">
         <h1 className="font-bold text-3xl">Reach Out to Us</h1>
         <p className="my-4 ">

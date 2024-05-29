@@ -9,8 +9,8 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-award bg-cover bg-no-repeat bg-enter text-white py-6">
-      <section className="border-b-2  border-dashed border-pink grid grid-cols-6 gap-8 my-10 items-center w-[90%] mx-[5%] justify-between py-6">
+    <footer className="bg-award bg-cover bg-no-repeat bg-enter text-white py-6 ">
+      <section className="border-b-2  border-dashed border-pink grid grid-cols-6 gap-8 my-10 items-center w-[90%] mx-[5%] justify-between py-6 2xl:w-[1300px] 2xl:mx-auto">
         <div className="col-span-6 sm:col-span-3 lg:col-span-2">
           <Image src={logo} alt="logo" />
           <p className="my-6">Here Joyful Play Sparks Lifelong Memories.</p>
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="col-span-6 sm:col-span-3 lg:col-span-2">
+        <div className="col-span-6 sm:col-span-3 lg:col-span-2 ">
           <Image src={about} alt="about" />
         </div>
 
@@ -31,20 +31,20 @@ const Footer = () => {
           <p className="my-6">
             Be part of the 50K+ community thriving with Zaijoy!
           </p>
-          <div className="flex gap-4">
+          <div className="flex gap-4 w-full">
             <input
               type="text"
               placeholder="enter email address"
-              className="py-2 px-4 rounded-md"
+              className="py-2 px-4 rounded-md w-full"
             />
-            <button className="py-2 px-4 bg-pink rounded-md font-semibold">
+            <button className="py-2 px-4 bg-pink rounded-md font-semibold ">
               Subscribe
             </button>
           </div>
         </div>
       </section>
 
-      <div className="w-[90%] mx-[5%] grid grid-cols-4 gap-8 pt-6">
+      <div className="w-[90%] mx-[5%] grid grid-cols-4 gap-8 pt-6 2xl:w-[1300px] 2xl:mx-auto">
         <div className="sm:border-r-2  border-dashed border-pink col-span-4 sm:col-span-2 lg:col-span-1">
           <h2 className="text-xl font-semibold mb-4">Menu</h2>
           <ul>

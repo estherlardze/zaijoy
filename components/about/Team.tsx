@@ -13,7 +13,7 @@ type TeamProp = {
 
 const Team = () => {
   return (
-    <section className="w-[90%] mx-[5%] 2xl:w-xl 2xl:mx-auto my-[120px]">
+    <section className="w-[90%] mx-[5%] 2xl:w-[1300px] 2xl:mx-auto my-[120px]">
       <div className="text-center">
         <h1 className="font-bold text-5xl ">Meet the Hearts of Zaijoy</h1>
         <p className="my-3 sm:text-lg text-gray-500">

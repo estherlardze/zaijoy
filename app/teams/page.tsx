@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '@/components/Header'
-import { Teams , Gallery} from '@/components'
+import { Teams , Gallery, Embark} from '@/components'
 
 const page = () => {
   return (
     <div>
         <Header heading="Teams"/>
         <Teams/>
+        <Embark/>
         <Gallery/>
     </div>
   )

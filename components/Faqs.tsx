@@ -10,7 +10,7 @@ const Faqs = () => {
 
   return (
     <section className="bg-award bg-cover bg-no-repeat bg-center h-fit">
-      <div className=" w-[90%] py-[100px] mx-[5%] flex flex-col justify-center items-center text-white">
+      <div className=" w-[90%] py-[100px] mx-[5%] flex flex-col justify-center items-center text-white 2xl:w-[1300px] 2xl:mx-auto ">
         <h1 className="font-bold text-5xl ">Curious Minds, Clear Answers!</h1>
         <p className="my-3 sm:text-lg text-gray-500">
           There are many variations of passages of Lorem Ipsum available, but

@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '@/components/Header'
-import { Gallery , Adventure} from '@/components'
+import { Gallery , Pricing, Embark} from '@/components'
 
 const page = () => {
   return (
     <div>
         <Header heading="Pricing"/>
-        <Adventure/>
+        <Pricing/>
+        <Embark/>
         <Gallery/>
     </div>
   )
