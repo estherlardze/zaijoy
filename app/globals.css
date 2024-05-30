@@ -68,5 +68,25 @@ html, body {
   display: block;
 }
 
+@media screen and (min-width: 1024px) {
+  
+@keyframes swing {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.swing {
+  animation: swing  ease-in-out 3s infinite alternate;
+  float: left;
+  transform-origin: center -50px;
+  display: flex;
+}
+}
+
+
 
 

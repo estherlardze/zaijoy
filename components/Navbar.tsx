@@ -7,7 +7,7 @@ import Image from "next/image";
 import logo from "../public/images/logo.png";
 import { GrCart } from "react-icons/gr";
 import Buyticket from "./Buyticket";
-import { usePathname } from 'next/navigation';
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
@@ -21,9 +21,13 @@ const Navbar = () => {
     return router === path ? "text-pink" : "text-white";
   };
 
+  const handleCloseMenu = () => {
+    setMenu(false);
+  };
+
   return (
     <nav className="bg-black/80 text-white fixed lg:absolute top-0 left-0 right-0 lg:top-7 w-full overflow-hidden transition-all duration-300 z-20">
-      <section className="flex justify-between py-5 px-8 items-center ">
+      <section className="flex justify-between py-5 px-8 items-center">
         <Image src={logo} alt="logo" width={100} />
         <div className="hidden lg:flex gap-8">
           <Link href="/" className={`text-[17px] font-semibold cursor-pointer hover:text-pink transition-all ${isActive("/")}`}>
@@ -68,25 +72,25 @@ const Navbar = () => {
       {menu && (
         <div className="w-full bg-black z-50 text-white fixed lg:hidden top-[70px] left-0 right-0 justify-center items-center transition-all duration-700">
           <div className="flex justify-center items-left pl-6 py-8 flex-col h-fit text-lg sm:text-xl gap-y-4">
-            <Link href="/" className={`font-semibold cursor-pointer ${isActive("/")}`}>
+            <Link href="/" className={`font-semibold cursor-pointer ${isActive("/")}`} onClick={handleCloseMenu}>
               Home
             </Link>
-            <Link href="/about-us" className={`font-semibold cursor-pointer ${isActive("/about-us")}`}>
+            <Link href="/about-us" className={`font-semibold cursor-pointer ${isActive("/about-us")}`} onClick={handleCloseMenu}>
               About
             </Link>
-            <Link href="/services" className={`font-semibold cursor-pointer ${isActive("/services")}`}>
+            <Link href="/services" className={`font-semibold cursor-pointer ${isActive("/services")}`} onClick={handleCloseMenu}>
               Services
             </Link>
-            <Link href="/adventure" className={`font-semibold cursor-pointer ${isActive("/adventure")}`}>
+            <Link href="/adventure" className={`font-semibold cursor-pointer ${isActive("/adventure")}`} onClick={handleCloseMenu}>
               Adventures
             </Link>
-            <Link href="/pricing" className={`font-semibold cursor-pointer ${isActive("/pricing")}`}>
+            <Link href="/pricing" className={`font-semibold cursor-pointer ${isActive("/pricing")}`} onClick={handleCloseMenu}>
               Pricing
             </Link>
-            <Link href="/teams" className={`font-semibold cursor-pointer ${isActive("/teams")}`}>
+            <Link href="/teams" className={`font-semibold cursor-pointer ${isActive("/teams")}`} onClick={handleCloseMenu}>
               Teams
             </Link>
-            <Link href="/contact" className={`font-semibold cursor-pointer ${isActive("/contact")}`}>
+            <Link href="/contact" className={`font-semibold cursor-pointer ${isActive("/contact")}`} onClick={handleCloseMenu}>
               Contact
             </Link>
             <button className="button sm:hidden"></button>

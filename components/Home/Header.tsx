@@ -11,7 +11,7 @@ import header6 from "@/public/images/home-44.png";
 
 const Header = () => {
   return (
-    <section className="bg-hero bg-cover bg-no-repeat bg-center  lg:h-[120vh] 2xl:h-[60vh] w-full relative ">
+    <section className="bg-hero bg-cover bg-no-repeat bg-center lg:h-[130vh] 2xl:h-[60vh] w-full relative ">
       <div className="w-[90%]  mx-[5%] 2xl:w-[1300px] 2xl:mx-auto">
         <Image
           src={header}
@@ -27,23 +27,23 @@ const Header = () => {
         <Image
           src={header3}
           alt="header"
-          className="absolute top-[450px] right-[30%] w-[200px] hidden md:block"
+          className="absolute top-[450px] right-[30%] w-[200px] hidden lg:block"
         />
         <Image
           src={header5}
           alt="header"
-          className="absolute top-[450px] right-[30%] w-[200px] hidden md:block"
+          className="absolute top-[450px] right-[30%] w-[200px] hidden lg:block"
         />
 
         <Image
           src={header4}
           alt="header"
-          className="absolute top-[350px] right-[45%] w-[100px] hidden md:block"
+          className="absolute top-[350px] right-[45%] w-[100px] hidden lg:block"
         />
         <Image
           src={header6}
           alt="header"
-          className="absolute top-[350px] right-[45%] w-[100px] hidden md:block"
+          className="absolute top-[350px] right-[45%] w-[100px] hidden lg:block"
         />
 
         <div className="flex flex-col py-[90px] md:py-[200px] ">
