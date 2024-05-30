@@ -10,9 +10,9 @@ type AccorProps = {
 const Accordian = ({ title, content }: AccorProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [height, setHeight] = useState("0px");
-  const contentRef = useRef<HTMLElement | null>(null);
+  const contentRef = useRef<HTMLDivElement | null>(null);
 
-  const toggleAccordion = () => {
+  const toggleAccordion:any = () => {
     setIsOpen(!isOpen);
   };
 
