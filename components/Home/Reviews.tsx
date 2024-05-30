@@ -1,4 +1,4 @@
-// src/Carousel.js
+'use client'
 import React, { useState, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { LuArrowRight, LuArrowLeft } from "react-icons/lu";
