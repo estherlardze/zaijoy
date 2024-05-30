@@ -1,5 +1,5 @@
 import React from "react";
-import Buyticket from "../Buyticket";
+import Buyticket from "../shared/Buyticket";
 import Image from "next/image";
 import star from "@/public/images/home-46.png";
 import header from "@/public/images/home-8.png";
@@ -11,7 +11,7 @@ import header6 from "@/public/images/home-44.png";
 
 const Header = () => {
   return (
-    <section className="bg-hero bg-cover bg-no-repeat bg-center lg:h-[130vh] 2xl:h-[60vh] w-full relative ">
+    <section className="bg-hero bg-cover bg-no-repeat bg-center h-[130vh] 2xl:h-[60vh] w-full relative ">
       <div className="w-[90%]  mx-[5%] 2xl:w-[1300px] 2xl:mx-auto">
         <Image
           src={header}
@@ -21,7 +21,7 @@ const Header = () => {
         <Image
           src={header2}
           alt="header"
-          className="absolute -top-[100px] right-0 w-[50%] 2xl:w-[30%]"
+          className="absolute -top-[100px] right-0 w-[50%] 2xl:w-[30%] moveUpDown"
         />
 
         <Image
@@ -32,7 +32,7 @@ const Header = () => {
         <Image
           src={header5}
           alt="header"
-          className="absolute top-[450px] right-[30%] w-[200px] hidden lg:block"
+          className="absolute top-[450px] right-[30%] w-[200px] hidden lg:block moveUpDown"
         />
 
         <Image
@@ -43,12 +43,12 @@ const Header = () => {
         <Image
           src={header6}
           alt="header"
-          className="absolute top-[350px] right-[45%] w-[100px] hidden lg:block"
+          className="absolute top-[350px] right-[45%] w-[100px] hidden lg:block moveUpDown"
         />
 
         <div className="flex flex-col py-[90px] md:py-[200px] ">
           <div className="flex flex-col text-white ml-6 lg:w-[40%] z-10">
-            <h1 className="text-pink text-lg " data-aos="fade-right">
+            <h1 className="text-pink text-lg font-semibold" data-aos="fade-right">
               Care and Play Unite in Harmony
             </h1>{" "}
             <div className="relative my-2 md:my-6">

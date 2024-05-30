@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { pricings } from "@/utils/data";
 import { CiCircleCheck } from "react-icons/ci";
-import Buyticket from "./Buyticket";
+import Buyticket from "./shared/Buyticket";
 import { home10, home11 } from "@/public";
 
 const Adventure = () => {

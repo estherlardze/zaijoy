@@ -1,20 +1,20 @@
-export {default as Welcome } from './about/Welcome'
-export {default as WhyChooseUs} from './about/WhyChooseUs'
-export {default as Awards } from './about/Awards'
-export {default as Team} from './about/Team'
-export {default as Faqs } from './Faqs'
-export {default as Branch} from './about/Branch'
-export {default as Embark} from './Embark'
-export {default as Gallery} from './about/Galary'
-export {default as Adventure} from './Adventure'
-export {default as Form} from './Form'
-export {default as Services} from './Services'
-export {default as Teams} from './Teams'
-export {default as Pricing} from './Pricing'
-export {default as Features} from './Home/Features'
-export {default as Dedicated} from './Home/Dedicated'
-export {default as Enhance} from './Enhance'
-export {default as Blog} from './Home/Blog'
-export {default as Reviews} from './Home/Reviews'
-export {default as MasonryImages} from './Home/Masonry'
-export {default as Hanging} from './Home/Hanging'
+export { default as Welcome } from "./about/Welcome";
+export { default as WhyChooseUs } from "./about/WhyChooseUs";
+export { default as Awards } from "./about/Awards";
+export { default as Team } from "./about/Team";
+export { default as Faqs } from "./shared/Faqs";
+export { default as Branch } from "./about/Branch";
+export { default as Embark } from "./shared/Embark";
+export { default as Gallery } from "./about/Galary";
+export { default as Adventure } from "./Team/Adventure";
+export { default as Form } from "./Contact/Form";
+export { default as Services } from "./Services/Services";
+export { default as Teams } from "./Team/Teams";
+export { default as Pricing } from "./Pricing";
+export { default as Features } from "./Home/Features";
+export { default as Dedicated } from "./Home/Dedicated";
+export { default as Enhance } from "./Home/Enhance";
+export { default as Blog } from "./Home/Blog";
+export { default as Reviews } from "./Home/Reviews";
+export { default as MasonryImages } from "./Home/Masonry";
+export { default as Hanging } from "./Home/Hanging";

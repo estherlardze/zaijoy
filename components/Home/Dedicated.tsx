@@ -3,7 +3,7 @@ import home1 from "@/public/images/home-28.png";
 import home2 from "@/public/images/home-29.png";
 import Image from "next/image";
 import { services } from "@/utils/data";
-import ServiceCard from "../ServiceCard";
+import ServiceCard from "../Services/ServiceCard";
 
 const Dedicated = () => {
   return (
@@ -38,7 +38,7 @@ const Dedicated = () => {
       <div className="grid grid-cols-6 gap-6 mt-[100px] w-[90%]  mx-[5%] 2xl:w-[1300px] 2xl:mx-auto">
         {services.slice(0, 3).map((service, index) => (
           <div className="col-span-6 sm:col-span-3 lg:col-span-2" key={index}>
-            <ServiceCard service={service}  />
+            <ServiceCard service={service} color="#fff"/>
           </div>
         ))}
       </div>

@@ -3,13 +3,11 @@ import { StaticImageData } from "next/image";
 import Image from "next/image";
 import Link from "next/link";
 
-
-
-const ServiceCard = ({ service }: any) => {
+const ServiceCard = ({ service, color }: any) => {
   return (
     <div
-      className="w-full h-fit shadow-md p-3"
-      style={{ backgroundColor: service.rgbaColor }}
+      className={`w-full h-fit shadow-md p-3 `}
+      style={{ backgroundColor: service.rgbaColor, color:color }}
       data-aos="fade-up"
     >
       <div className="overflow-hidden">
@@ -24,10 +22,14 @@ const ServiceCard = ({ service }: any) => {
         className="px-4  py-8"
         style={{ border: `2px dashed ${service.color}` }}
       >
-        <h1 className="font-bold text-xl hover:text-pink transition-all duration-300 mb-4">{service.title}</h1>
+        <h1 className="font-bold text-xl hover:text-pink transition-all duration-300 mb-4">
+          {service.title}
+        </h1>
         <p>{service.text}</p>
 
-        <Link href={service.route} className="underline">Know More</Link>
+        <Link href={service.route} className="underline">
+          Know More
+        </Link>
       </div>
     </div>
   );

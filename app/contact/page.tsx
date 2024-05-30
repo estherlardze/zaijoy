@@ -1,12 +1,11 @@
-"use client"
-import React , {useEffect} from "react";
-import Header from "@/components/Header";
+"use client";
+import React, { useEffect } from "react";
+import Header from "@/components/shared/Header";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Gallery, Form, Branch, Embark } from "@/components";
 
 const Contact = () => {
-
   useEffect(() => {
     AOS.init({
       duration: 1500,
@@ -21,7 +20,7 @@ const Contact = () => {
         title="Playful Magic to Every Corner"
         text="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form."
       />
-      <Form/>
+      <Form />
       <Embark />
       <Gallery />
     </div>

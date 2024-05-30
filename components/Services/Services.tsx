@@ -3,16 +3,14 @@ import { services } from "@/utils/data";
 import ServiceCard from "./ServiceCard";
 import { StaticImageData } from "next/image";
 
-
 type ServiceProp = {
-    name: string;
-    title: string;
-    image: StaticImageData;
-    color: string;
-    rgbaColor: string;
-    route: string;
-  };
-
+  name: string;
+  title: string;
+  image: StaticImageData;
+  color: string;
+  rgbaColor: string;
+  route: string;
+};
 
 const Services = () => {
   return (
@@ -27,8 +25,8 @@ const Services = () => {
 
       <div className="grid grid-cols-6 gap-6 mt-[50px]">
         {services.map((service, index) => (
-          <div className="col-span-6 sm:col-span-3 lg:col-span-2"  key={index}>
-            <ServiceCard service={service} />
+          <div className="col-span-6 sm:col-span-3 lg:col-span-2" key={index}>
+            <ServiceCard service={service} color="#000"/>
           </div>
         ))}
       </div>

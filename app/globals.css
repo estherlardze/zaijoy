@@ -68,6 +68,22 @@ html, body {
   display: block;
 }
 
+/*==========header image movement==========*/
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(30);
+  }
+  50% {
+    transform: translateY(-30px);
+  }
+}
+
+.moveUpDown {
+  animation: moveUpDown 10s infinite ease-in-out;
+}
+
+
+/*=========swinging pendulum===========*/
 @media screen and (min-width: 1024px) {
   
 @keyframes swing {
@@ -86,6 +102,8 @@ html, body {
   display: flex;
 }
 }
+
+
 
 
 

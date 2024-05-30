@@ -6,7 +6,10 @@ import ContactButton from "./ContactButton";
 
 const Embark = () => {
   return (
-    <section className="w-[90%] mx-[5%] flex justify-center items-center my-[100px] 2xl:w-[1300px] 2xl:mx-auto" data-aos="fade-up">
+    <section
+      className="w-[90%] mx-[5%] flex justify-center items-center my-[100px] 2xl:w-[1300px] 2xl:mx-auto"
+      data-aos="fade-up"
+    >
       <div className="relative">
         <Image src={e3} alt="welcome-image-1" className="w-full h-[400px]" />
         <div className="hidden md:block absolute bottom-2 lg:bottom-16 lg:left-16">

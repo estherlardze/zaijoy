@@ -1,6 +1,6 @@
 import React from "react";
 import { teams } from "@/utils/data";
-import TeamCard from "./about/TeamCard";
+import TeamCard from "../about/TeamCard";
 import { StaticImageData } from "next/image";
 
 type TeamProp = {

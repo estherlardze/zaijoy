@@ -2,8 +2,8 @@ import React from "react";
 import { LuPhoneCall } from "react-icons/lu";
 import { MdAlternateEmail } from "react-icons/md";
 import { GrLocation } from "react-icons/gr";
-import about from "../public/images/about-1.png";
-import logo from "../public/images/logo.png";
+import about from "../../public/images/about-1.png";
+import logo from "../../public/images/logo.png";
 import Image from "next/image";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
