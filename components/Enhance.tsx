@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Enhance = () => {
   return (
-    <section className="mx-[5%] w-[90%] my-[90px] 2xl:w-[1300px] mb-[100px]">
+    <section className="mx-[5%] w-[90%] my-[90px] 2xl:w-[1300px] 2xl:mx-auto mb-[100px] overflow-hidden">
       <div className="text-center">
         <h1 className="font-bold text-3xl"  data-aos="fade-up">
           Enhancing Moments with Exceptional Offers.

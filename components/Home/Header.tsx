@@ -11,7 +11,7 @@ import header6 from "@/public/images/home-44.png";
 
 const Header = () => {
   return (
-    <section className="bg-hero bg-cover bg-no-repeat bg-center  lg:h-[120vh] 2xl:h-[60vh] w-full relative">
+    <section className="bg-hero bg-cover bg-no-repeat bg-center  lg:h-[120vh] 2xl:h-[60vh] w-full relative ">
       <div className="w-[90%]  mx-[5%] 2xl:w-[1300px] 2xl:mx-auto">
         <Image
           src={header}
@@ -47,7 +47,7 @@ const Header = () => {
         />
 
         <div className="flex flex-col py-[90px] md:py-[200px] ">
-          <div className="flex flex-col text-white ml-6 lg:w-[40%] z-50">
+          <div className="flex flex-col text-white ml-6 lg:w-[40%] z-10">
             <h1 className="text-pink text-lg " data-aos="fade-right">
               Care and Play Unite in Harmony
             </h1>{" "}

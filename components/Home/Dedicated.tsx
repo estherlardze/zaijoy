@@ -7,7 +7,7 @@ import ServiceCard from "../ServiceCard";
 
 const Dedicated = () => {
   return (
-    <div className="bg-award bg-center bg-no-repeat bg-cover w-full h-fit pb-8 lg:pb-0 lg:h-[80vh] flex flex-col md:mb-[300px] mt-[70px] lg:mt-0 relative lg:-top-[200px]">
+    <div className="bg-award bg-center bg-no-repeat bg-cover w-full h-fit pb-8 lg:pb-0 lg:h-[80vh]  flex flex-col md:mb-[300px] mt-[70px] lg:mt-0 relative lg:-top-[200px]">
       <section className="flex gap-6  2xl:w-[1300px] 2xl:mx-auto text-white pt-[70px]">
         <Image
           src={home2}

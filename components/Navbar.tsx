@@ -16,8 +16,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-black/80 text-white fixed lg:absolute top-0 left-0 right-0 lg:top-7 w-full transition-all duration-300 z-20">
-      <section className="flex justify-between py-5 px-8 items-center">
+    <nav className="bg-black/80 text-white fixed lg:absolute top-0 left-0 right-0 lg:top-7 w-full overflow-hidden transition-all duration-300 z-20">
+      <section className="flex justify-between py-5 px-8 items-center ">
         <Image src={logo} alt="logo" width={100} />
         <div className="hidden lg:flex gap-8">
           <Link
@@ -86,7 +86,7 @@ const Navbar = () => {
       </section>
 
       {menu && (
-        <div className="w-full bg-black/90 text-white fixed lg:hidden top-[70px] left-0 justify-center items-center transition-all duration-700">
+        <div className="w-full bg-black z-50 text-white fixed lg:hidden top-[70px] left-0 right-0 justify-center items-center transition-all duration-700">
           <div className="flex justify-center items-left pl-6 py-8 flex-col h-fit text-lg sm:text-xl gap-y-4">
             <Link href="/" className="font-semibold cursor-pointer">
               Home
