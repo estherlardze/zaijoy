@@ -24,7 +24,12 @@ import {
   f12,
   mom1,
   mom2,
-  mom3
+  mom3,
+  b1,
+  b2,
+  review1,
+  review2,
+  review3,
 } from "../public";
 
 export const features = [
@@ -234,7 +239,7 @@ export const services = [
     image: team1,
     color: "#f2cf30",
     rgbaColor: "rgba(222, 219, 62, 0.2)",
-    route:'/'
+    route: "/",
   },
   {
     title: "Enriching Learning",
@@ -261,7 +266,7 @@ export const pricings = [
     benefits: [
       "Access to baby play area",
       "Sensory activities",
-      "Exploration with toys"
+      "Exploration with toys",
     ],
     color: "#2abed1",
     rgbaColor: "rgba(42, 190, 209, 0.2)",
@@ -272,7 +277,7 @@ export const pricings = [
     benefits: [
       "Access to main play area",
       "Learning activities",
-      "Basic storytelling"
+      "Basic storytelling",
     ],
     color: "#de6535",
     rgbaColor: "rgba(222, 101, 53, 0.2",
@@ -283,64 +288,106 @@ export const pricings = [
     benefits: [
       "Access to all play area",
       "Interactive storytelling",
-      "Creative play corners"
+      "Creative play corners",
     ],
     color: "#32a852",
     rgbaColor: "rgba(50, 168, 82, 0.2)",
-  }
-]
+  },
+];
 
 export const homefeatures = [
   {
     title: "Vibrant Play Area",
-    content: "Vibrant indoor play area is a canvas for imagination, filled with age-appropriate toys and activities.    ",
+    content:
+      "Vibrant indoor play area is a canvas for imagination, filled with age-appropriate toys and activities.    ",
     image: f9,
     color: "#32a852",
   },
   {
     title: "Dedicated Caregivers",
-    content: "With a dedicated team of experienced caregivers, your little ones are in capable hands, receiving.    ",
+    content:
+      "With a dedicated team of experienced caregivers, your little ones are in capable hands, receiving.    ",
     image: f10,
     color: "#de6535",
   },
   {
     title: "Emphasis on Hygiene",
-    content: "Hygiene and safety are non-negotiable priorities, We ensure secure space where children can flourish.    ",
+    content:
+      "Hygiene and safety are non-negotiable priorities, We ensure secure space where children can flourish.    ",
     image: f11,
     color: "#2abed1",
   },
-  {  title:"Stimulating Environment",
-    content: "Safety is paramount. Our meticulously crafted space provides a safe and stimulating environment.    ",
+  {
+    title: "Stimulating Environment",
+    content:
+      "Safety is paramount. Our meticulously crafted space provides a safe and stimulating environment.    ",
     image: f12,
     color: "#f0d316",
   },
-  
-
-]
+];
 
 export const enhances = [
   {
     title: "Toddler Play Zones",
-    content:
-      "Play zones tailored specifically for the needs and abilities.",
+    content: "Play zones tailored specifically for the needs and abilities.",
     image: f3,
   },
   {
     title: "Educational Tools",
-    content:
-      "Toys and tools that are promote learning and development.",
+    content: "Toys and tools that are promote learning and development.",
     image: f2,
   },
   {
     title: "Storytelling Zones",
-    content:
-      "Storytelling sessions to promote language development.",
+    content: "Storytelling sessions to promote language development.",
     image: f1,
   },
   {
     title: "Baby Crawling Area",
-    content:
-      "Designated area for infants to develop their motor skills.",
+    content: "Designated area for infants to develop their motor skills.",
     image: f4,
   },
-]
+];
+
+export const blogs = [
+  {
+    image: b1,
+    text: "Growing Up Happy: Navigating Your Baby's Joyful Childhood Milestones",
+    name: "Ethan Carter",
+    date: "11/18/2023",
+    color: "#f2cf30",
+    rgbaColor: "rgba(222, 219, 62, 0.2)",
+  },
+  {
+    image: b2,
+    text: "Beyond ABCs: Fostering a Love for Learning Exploration at Home",
+    name: "Ethan Carter",
+    date: "11/18/2023",
+    color: "#e90e70",
+    rgbaColor: "rgba(233, 14, 112, 0.1)",
+  },
+];
+
+export const reviews = [
+  {
+    name: "Emily Turner",
+    image:review1,
+    title: "Elementary School Teacher",
+    message:
+      "“From the vibrant play areas to the engaging activities, every visit is filled with laughter and discovery. The dedicated staff goes above and beyond to create a safe and nurturing environment. Our family cherishes the unforgettable moments created here, making Zaijoy play area our go-to destination for joy and family fun!”",
+  },
+  {
+    name: "Dr. Sophia Rodriguez",
+    image:review2,
+    title: "Paediatrician",
+    message:
+      "“As a paediatrician and a parent, I am impressed by the exceptional care and attention to detail provided by this play area. The emphasis on safety, coupled with a stimulating environment, ensures not only fun but also promotes healthy development. Coupled with a environment. A fantastic place for children to flourish!”",
+  },
+  {
+    name: "Ethan Turner",
+    image:review3,
+    title: "Parent",
+    message:
+      "“Our journey in this play area has been nothing short of magical vibrant atmosphere, caring staff, and thoughtfully designed activities. The vibrant atmosphere, caring staff wonderland of joy, and thoughtfully designed activities have transformed playtime into a wonderland of joy for our little one. Highly recommended!”",
+  },
+];

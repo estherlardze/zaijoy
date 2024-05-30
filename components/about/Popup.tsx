@@ -7,9 +7,17 @@ type VideoProp = {
 
 const Popup = ({ closeVideo }: VideoProp) => {
   return (
-    <div className="bg-black/90 h-screen w-full z-50 fixed top-0 left-0 text-white">
-      <IoCloseSharp onClick={closeVideo} />
-      <div className="flex flex-col items-center justify-center"></div>
+    <div className="bg-black/95 h-screen w-full z-50 fixed top-0 left-0 text-white ">
+      <div className="flex justify-end">
+        <IoCloseSharp
+          onClick={closeVideo}
+          size={30}
+          className="cursor-pointer m-4"
+        />
+      </div>
+      <div className="flex justify-center items-center h-[90vh] text-center">
+        <div className="w-12 h-12 border-4 border-t-transparent border-blue-500 rounded-full animate-spin"></div>
+      </div>
     </div>
   );
 };

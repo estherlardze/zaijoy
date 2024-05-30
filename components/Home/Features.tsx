@@ -18,7 +18,7 @@ const Features = () => {
       </div>
 
       <div className="grid grid-cols-2 gap-12 mt-6"  data-aos="fade-right">
-        <div className="relative my-6  col-span-2 lg:col-span-1">
+        <div className="relative my-6 col-span-2 lg:col-span-1">
           <Image src={hf1} alt="welcome-image-1" className="w-full"/>
           <div className="absolute left-20 right-20 top-20 bottom-20  flex justify-center items-center">
             <Image src={hf2} alt="welcome-image-2" className="w-full h-full"/>

@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,7 +22,9 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      
+      <head>
+        <link rel="shortcut icon" href="../public/images/logo.png"/>
+      </head>
       <body className={inter.className}>
         <div className="relative">
           <Navbar />
