@@ -8,8 +8,8 @@ type HeadingProps = {
 
 const Header = ({ heading }: HeadingProps) => {
   return (
-    <section className="bg-hero bg-cover bg-no-repeat bg-center h-[40vh] lg:h-[70vh] 2xl:h-[50vh] w-full">
-      <div className="flex flex-col justify-center items-center h-[40vh] lg:h-[70vh] 2xl:h-[50vh]">
+    <section className="bg-hero bg-cover bg-no-repeat bg-center h-[50vh] lg:h-[70vh] 2xl:h-[50vh] w-full">
+      <div className="flex flex-col justify-center items-center h-[50vh] lg:h-[70vh] 2xl:h-[50vh]">
         <h1 className="text-white font-bold text-5xl mt-6">{heading}</h1> <br />
         <div className="flex gap-1 items-center group">
           <Link
