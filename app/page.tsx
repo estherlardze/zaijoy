@@ -28,7 +28,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className=" w-screen">
+    <main className="w-screen">
       <Header />
       <div className="lg:mb-[400px]">
         {" "}

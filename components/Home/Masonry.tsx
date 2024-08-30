@@ -60,7 +60,7 @@ const MasonryImages = () => {
     <section className="bg-award bg-cover bg-center bg-no-repeat w-full h-fit">
       <div className="mx-[5%] 2xl:w-[1300px] 2xl:mx-auto">
         <div className="text-center text-white py-8">
-          <h1 className="font-bold text-3xl" data-aos="fade-up">
+          <h1 className="font-bold text-3xl" >
             Exciting Adventures in Our Indoor Wonderland.
           </h1>
           <p className="my-4" data-aos="fade-up">
@@ -80,7 +80,7 @@ const MasonryImages = () => {
               <div
                 key={index}
                 className="masonry-item"
-                data-aos="fade-up"
+              
                 
               >
                 <div style={{ backgroundColor: item.bgColor }} className="p-2">

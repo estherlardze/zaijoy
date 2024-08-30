@@ -8,7 +8,7 @@ const ServiceCard = ({ service, color }: any) => {
     <div
       className={`w-full h-fit shadow-md p-3 `}
       style={{ backgroundColor: service.rgbaColor, color:color }}
-      data-aos="fade-up"
+      
     >
       <div className="overflow-hidden">
         <Image

@@ -21,7 +21,6 @@ const BranchCard = ({ contact }: any) => {
     <div
       className="w-full h-fit shadow-md p-3"
       style={{ backgroundColor: contact.rgbaColor }}
-      data-aos="fade-up"
     >
       <div className="overflow-hidden">
         <Image

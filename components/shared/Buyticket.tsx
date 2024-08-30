@@ -4,7 +4,7 @@ const Buyticket = ({ color, textColor }: any) => {
   return (
     <button
       className="group relative inline-flex overflow-hidden rounded-md  font-medium"
-      data-aos="fade-up"
+  
     >
       <div
         className="inline-flex text-lg py-2 font-semibold translate-y-0 items-center justify-center bg-pink px-8 text-white transition duration-500 group-hover:-translate-y-[150%]"
